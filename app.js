@@ -31,6 +31,42 @@
 
 // Qno:6
 
+// // Qno:7
+// let city = "Hyderabad";
+// let replacement=city.replace("Hyder","Islam")
+//  document.write(`City: ${city} <br /> After replacement: ${replacement}`)
+
+// Qno:8
+// let message ="Ali and sami are best friends.They play cricket and football together."
+// let replace = message.replace(/and/g," & ")
+// document.write(`Message: ${message}<br /> After replacement: ${replace}`)
+
+// Qno: 9
+// let StringNumber ="472";
+// console.log(typeof(StringNumber))
+// let number =+StringNumber 
+// console.log(number)
+// console.log(typeof(number))
+// document.write(`Value:${StringNumber}<br />Type:${typeof(StringNumber)}<br />Value: ${number}<br />Type: ${typeof(number)}`)
+
+// Qno:10
+// let userInput=prompt("Enter your word");
+// console.log(userInput.toUpperCase(userInput))
+// document.write(`User input: ${userInput}<br />Upper case: ${userInput.toUpperCase(userInput)}`);
+
+// Qno:11
+// let userInput=prompt("Enter your word");
+// let firstchar=userInput.slice(0,1)
+// firstchar=firstchar.toUpperCase()
+// let otherchar= userInput.slice(1)
+// otherchar=otherchar.toLowerCase()
+// let titled=firstchar+otherchar
+// console.log(titled)
+// document.write(`User input: ${userInput}<br /> Title case: ${userInput}`)
+
+// Qno:12
+let num = "35.36";
+console.log(num)
 
 
 
