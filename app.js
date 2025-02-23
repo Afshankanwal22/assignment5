@@ -107,6 +107,65 @@
 //     }
 
 // Qno:15
+// let password = prompt("Enter your password");
+// let passwordlength = false;
+// let passwordchar= false;
+// let passwordNum= false
+// let firstLetter=true
+// // checking for Alphabat
+// for(let i=0;i<password.length;i++){
+//     let charValue = password[i].charCodeAt()
+//     console.log(charValue);
+
+//     // checking for uppercase
+//     for(let i=0;i<password.length;i++){
+//         if(charValue>=65 && charValue<=90){
+//             passwordchar=true;
+//             console.log(passwordchar);
+            
+//         }
+//     }
+//     // checking for lowercase
+//     for(let i=0;i<password.length;i++){
+//         if(charValue>=97 && charValue<=122){
+//             passwordchar=true;
+//             console.log(passwordNum);
+//         }
+//     }
+// }
+// //  checking for number
+// for(let i=0;i<password.length;i++){
+//     let charValue=password[i].charCodeAt(0)
+//     if(charValue>=48 && charValue<=57){
+//         passwordNum=true;
+//         console.log(passwordNum);
+//     }
+        
+//     }
+//     // checking for first letter
+//     let charValue=password.charCodeAt()
+//     for(let i=0;i<password.length;i++){
+//      if(charValue>=48 && charValue<=57){
+//         passwordlength=false;
+
+//      }
+//     }
+
+    
+//     // checking for length
+//     if(password.length>=6){
+//         passwordlength=true;
+//     }
+//     if(passwordchar===false || passwordNum===false || passwordlength===false || firstLetter===false){
+//         alert("Please enter your vaild password")
+//     }
+//     else{
+//         alert("password approved")
+//     }
+
+
+// 
+
 
 // Qno:16
 // let university = "University of Karachi";
