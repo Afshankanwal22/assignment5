@@ -30,6 +30,9 @@
 // document.write(`Character at Index ${character.indexOf("i")}:${character.slice(3,4)}`);
 
 // Qno:6
+// let firstName =prompt("ENTER YOUR FIRST NAME");
+// let lastName= prompt("ENTER YOUR LAST NAME");
+// alert("Hello " + firstName.concat(lastName))
 
 // // Qno:7
 // let city = "Hyderabad";
@@ -65,8 +68,77 @@
 // document.write(`User input: ${userInput}<br /> Title case: ${userInput}`)
 
 // Qno:12
-let num = "35.36";
-console.log(num)
+// let num = 35.36;
+// let str = num.toString();
+// let dotNum = str.indexOf(".");
+// let result = str.slice(0,dotNum)+str.slice(dotNum+1);
+// console.log(result);
+// document.write(`Number: ${num}<br /> Result: ${result}`);
+
+// Qno:13
+// let userInput=prompt("Enter your number");
+// let charcode;
+// for(let i=0;i<userInput.length;i++){
+//     charcode=userInput.charCodeAt(i)
+//     console.log(charcode)
+//     if(charcode===33 || charCodeAt===44 || charCodeAt===46 || charCodeAt===64){
+//         alert("Please enter your vaild username")
+
+//     }
+// }
+
+
+// Qno:14
+// let A= ["cake","apple pie","cookie","chips","patties"]
+// let userInput=prompt("what do you want eat");
+// userInput=userInput.toLowerCase()
+// let flag=false
+// for(let i=0;i<A.length;i++){
+//     if(userInput===A[i]){
+//         document.write(`${A[i]} is available at index ${i} in our bakery`)
+//         flag=true
+//         break;
+
+//     }
+// }
+//     if(flag==false){
+//         document.write(`We are sorry . ${userInput} is not available in our bakery`)
+    
+//     }
+
+// Qno:15
+
+// Qno:16
+// let university = "University of Karachi";
+// let arr = university.split("")
+// for(let i=0;i<university.length;i++){
+//     document.write(`${arr[i]} <br />`)
+// }
+
+// Qno:17
+// let userInput= "Pakistan";
+// let lastWord=userInput.charAt(7)
+// console.log(lastWord);
+// document.write(`User input: ${userInput} <br /> Last character of input: ${lastWord}`)
+
+// Qno:18
+// let text = "The quick brown fox jumps over the lazy dog"
+// text = text.toLowerCase()
+// let count = text.match(/the/g)
+// let length=count ? count.length : 0;
+// document.write(`Text: ${text}<br />There are ${length} Occurrence(s) of word 'the'`)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
